@@ -4,7 +4,8 @@ using System.Text;
 
 namespace SimplyCrawl.Library
 {
-	class HtmlAgilityExtensions
+	public static class HtmlAgilityExtensions
 	{
+
 	}
 }
