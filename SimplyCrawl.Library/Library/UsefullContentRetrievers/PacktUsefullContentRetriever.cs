@@ -1,7 +1,7 @@
 using HtmlAgilityPack;
 using System.Collections.Generic;
 using System.Linq;
-namespace PacktScreener.Library.UsefullContentRetrievers
+namespace SimplyCrawl.Library.UsefullContentRetrievers
 {
 	public class PacktUsefullContentRetriever : IUsefullContentRetriever
 	{

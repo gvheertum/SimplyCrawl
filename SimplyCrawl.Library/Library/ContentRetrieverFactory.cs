@@ -1,9 +1,9 @@
-﻿using PacktScreener.Library;
+﻿using SimplyCrawl.Library;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace packtscreener.Library
+namespace SimplyCrawl.Library
 {
 	public enum ContentRetrieverType
 	{

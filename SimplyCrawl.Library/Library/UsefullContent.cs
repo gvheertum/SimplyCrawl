@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-namespace PacktScreener.Library
+namespace SimplyCrawl.Library
 {
 
 	public class UsefullContent

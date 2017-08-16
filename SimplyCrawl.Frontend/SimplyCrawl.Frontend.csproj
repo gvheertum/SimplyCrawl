@@ -9,4 +9,7 @@
     <PackageReference Include="System.Collections" Version="4.3.0" />
     <PackageReference Include="System.Net.Http" Version="4.3.2" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimplyCrawl.Library\SimplyCrawl.Library.csproj" />
+  </ItemGroup>
 </Project>

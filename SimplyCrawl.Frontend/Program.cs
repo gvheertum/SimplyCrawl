@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using PacktScreener.Library;
-using PacktScreener.Library.UsefullContentRetrievers;
-using packtscreener.Library;
+using SimplyCrawl.Library;
+using SimplyCrawl.Library.UsefullContentRetrievers;
+using SimplyCrawl.Library;
 
-namespace PacktScreener
+namespace SimplyCrawl
 {
 	class Program
 	{
-		const string PacktUrl = "https://www.packtpub.com/packt/offers/free-learning";
+		
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Simple webreader thingy");

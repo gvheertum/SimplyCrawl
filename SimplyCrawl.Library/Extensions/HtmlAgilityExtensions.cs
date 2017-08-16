@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace packtscreener.Extensions
+namespace SimplyCrawl.Library
 {
 	class HtmlAgilityExtensions
 	{

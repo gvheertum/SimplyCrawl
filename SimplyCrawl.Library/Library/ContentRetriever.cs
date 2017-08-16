@@ -1,7 +1,7 @@
-using PacktScreener.Library.UsefullContentRetrievers;
+using SimplyCrawl.Library.UsefullContentRetrievers;
 using System.Linq;
 
-namespace PacktScreener.Library
+namespace SimplyCrawl.Library
 {
 	public interface IContentRetriever
 	{
