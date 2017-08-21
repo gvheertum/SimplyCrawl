@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using SimplyCrawl.Library;
-using SimplyCrawl.Library.UsefullContentRetrievers;
+using SimplyCrawl.Crawlers;
 using SimplyCrawl.Library;
 
 namespace SimplyCrawl

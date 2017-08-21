@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimplyCrawl.Library
+namespace SimplyCrawl.Crawlers
 {
 	public enum ContentRetrieverType
 	{
@@ -17,7 +17,7 @@ namespace SimplyCrawl.Library
 		{
 			return new Dictionary<ContentRetrieverType, IContentRetriever>()
 			{
-				{ ContentRetrieverType.PacktEbook, new PacktContentRetriever() }
+				{ ContentRetrieverType.PacktEbook, new PacktFreeEbookContentCrawler() }
 			};
 		}
 

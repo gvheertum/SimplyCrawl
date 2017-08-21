@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplyCrawl.Frontend", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyCrawl.Tests", "SimplyCrawl.Tests\SimplyCrawl.Tests.csproj", "{C8569D59-C5AF-4C7A-B1E3-FFA60A6D7440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyCrawl.Library", "SimplyCrawl.Library\SimplyCrawl.Library.csproj", "{5FDBFC44-E5BA-4C52-9E7F-3EF93320CEF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplyCrawl.Library", "SimplyCrawl.Library\SimplyCrawl.Library.csproj", "{5FDBFC44-E5BA-4C52-9E7F-3EF93320CEF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplyCrawl.Crawlers", "SimplyCrawl.Crawlers\SimplyCrawl.Crawlers.csproj", "{C2AF6B36-A892-43B3-BE92-0EED8E8FC6EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5FDBFC44-E5BA-4C52-9E7F-3EF93320CEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FDBFC44-E5BA-4C52-9E7F-3EF93320CEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FDBFC44-E5BA-4C52-9E7F-3EF93320CEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AF6B36-A892-43B3-BE92-0EED8E8FC6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AF6B36-A892-43B3-BE92-0EED8E8FC6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AF6B36-A892-43B3-BE92-0EED8E8FC6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AF6B36-A892-43B3-BE92-0EED8E8FC6EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

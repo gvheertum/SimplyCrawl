@@ -1,9 +1,10 @@
 using HtmlAgilityPack;
+using SimplyCrawl.Library;
 using System.Collections.Generic;
 using System.Linq;
-namespace SimplyCrawl.Library.UsefullContentRetrievers
+namespace SimplyCrawl.Crawlers
 {
-	public class PacktUsefullContentRetriever : IUsefullContentRetriever
+	public class PacktCrawler : IContentCrawler
 	{
 		public IEnumerable<UsefullContent> GetUseFullContent(string content)
 		{
@@ -44,4 +45,15 @@ namespace SimplyCrawl.Library.UsefullContentRetrievers
 			return html?.Replace("\r", "")?.Replace("\n", "")?.Replace("\t", "");
 		}
 	}
+
+	public class PacktFreeEbookContentCrawler : IContentRetriever
+	{
+		const string PacktDailyUrl = "https://www.packtpub.com/packt/offers/free-learning";
+		ContentGroup IContentRetriever.GetContent()
+		{
+			var nodes = new PacktCrawler().GetUseFullContent(new WebSiteRetriever().GetContent(PacktDailyUrl));
+			return new ContentGroup() { Name = "Packt-Free ebook deal", SubContent = nodes.ToList() };
+		}
+	}
+
 }
